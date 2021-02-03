@@ -1,0 +1,16 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:sch="http://joedayz.pe/hr/schemas">
+   <soapenv:Header/>
+    <soapenv:Body>
+      <sch:HolidayRequest>
+         <sch:Holiday>
+            <sch:StartDate>2004-01-22</sch:StartDate>
+            <sch:EndDate>2021-01-15</sch:EndDate>
+         </sch:Holiday>
+         <sch:Employee>
+            <sch:Number>15</sch:Number>
+            <sch:FirstName>Omar</sch:FirstName>
+            <sch:LastName>Imai</sch:LastName>
+         </sch:Employee>
+      </sch:HolidayRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
