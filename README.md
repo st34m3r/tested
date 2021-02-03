@@ -20,8 +20,8 @@ in the header section add :</br>
          </sch:Holiday>
          <sch:Employee>
             <sch:Number>15</sch:Number>
-            <sch:FirstName>Omar</sch:FirstName>
-            <sch:LastName>Imai</sch:LastName>
+            <sch:FirstName>name</sch:FirstName>
+            <sch:LastName>lastname</sch:LastName>
          </sch:Employee>
       </sch:HolidayRequest>
    </soapenv:Body>
