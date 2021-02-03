@@ -8,7 +8,9 @@ in the header section add :</br>
 
 # raw test body 
 </br>
-/*<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:sch="http://joedayz.pe/hr/schemas"></br>
+```xml
+<myxml>
+   <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:sch="http://joedayz.pe/hr/schemas"></br>
    <soapenv:Header/></br>
     <soapenv:Body></br>
       <sch:HolidayRequest></br>
@@ -23,8 +25,10 @@ in the header section add :</br>
          </sch:Employee></br>
       </sch:HolidayRequest></br>
    </soapenv:Body></br>
-</soapenv:Envelope></br>
-*/
+</soapenv:Envelope></br> 
+</myxml>
+```
+
 
 this print a message in the debug console :</br>
   Booking holiday for [{Thu Jan 22 00:00:00 GMT+01:00 2004} - {Fri Jan 15 00:00:00 GMT+01:00 2021}] for [{Name lastname}]</br> 
