@@ -9,9 +9,23 @@ in the header section add :</br>
 # raw test body 
 ```xml
 <?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
-<test>
-  <value>ácentó y la letra ñ<value>
-</test>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:sch="http://joedayz.pe/hr/schemas">
+   <soapenv:Header/>
+    <soapenv:Body>
+      <sch:HolidayRequest>
+         <!--You may enter the following 2 items in any order-->
+         <sch:Holiday>
+            <sch:StartDate>2004-01-22</sch:StartDate>
+            <sch:EndDate>2021-01-15</sch:EndDate>
+         </sch:Holiday>
+         <sch:Employee>
+            <sch:Number>15</sch:Number>
+            <sch:FirstName>Omar</sch:FirstName>
+            <sch:LastName>Imai</sch:LastName>
+         </sch:Employee>
+      </sch:HolidayRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
 ```
 
 this print a message in the debug console :</br>
